@@ -94,29 +94,86 @@ public class Main {
 
 //        #LEETCODE #4
 
-        List<List<Integer>> list = new ArrayList<>();
+//        List<List<Integer>> list = new ArrayList<>();
+//
+//
+//        List<Integer> subList1 = new ArrayList<>(Arrays.asList(1, 3));
+//        List<Integer> subList2 = new ArrayList<>(Arrays.asList(2, 6));
+//        List<Integer> subList3 = new ArrayList<>(Arrays.asList(8, 10));
+//        List<Integer> subList4 = new ArrayList<>(Arrays.asList(15, 10));
+//
+//        list.add(subList1);
+//        list.add(subList2);
+//        list.add(subList3);
+//        list.add(subList4);
+//
+//
+//        for (int i = 0; i < list.size(); i++) {
+//            if (list.get(i).get(1) > list.get(i + 1).get(0)) {
+//                list.get(i).remove(1);
+//                list.get(i + 1).remove(0);
+//                System.out.println(list.get(i + 1).get(0));
+//            }
+//        }
+//
+//
+//        int[] vetor = new int[10];
+//        int x =1;
+//        while(x < 4) {
+//            try {
+//                System.out.println(vetor[11]);
+//                x = 4;
+//            } catch (Exception e) {
+//                System.out.println(e + "        Tentativa: " + x);
+//                x++;
+//                if(x == 3){
+//                    vetor = new int[12];
+//                }
+//            }
+//        }
 
 
-        List<Integer> subList1 = new ArrayList<>(Arrays.asList(1, 3));
-        List<Integer> subList2 = new ArrayList<>(Arrays.asList(2, 6));
-        List<Integer> subList3 = new ArrayList<>(Arrays.asList(8, 10));
-        List<Integer> subList4 = new ArrayList<>(Arrays.asList(15, 10));
 
-        list.add(subList1);
-        list.add(subList2);
-        list.add(subList3);
-        list.add(subList4);
+        //Two SUM
+
+//        int target = 10;
+//        int[] lista = {1,4,5,10,6,5};
+//
+//        for(int i = 0;  i < lista.length; i++){
+//            for (int y = 1; i < lista.length; i++){
+//                if(lista[i] + lista[y] == target){
+//                    System.out.println("Item 1 : " + lista[i] + " Item 2: " + lista[y]);
+//                    break;
+//                }
+//            }
+//        }
 
 
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).get(1) > list.get(i + 1).get(0)) {
-                list.get(i).remove(1);
-                list.get(i + 1).remove(0);
-                System.out.println(list.get(i + 1).get(0));
-            }
-        }
+        //Valid Parentheses
+
+//        String s = "(]])(]";
+//
+//        String[] lista = s.split("");
+//        boolean count = false;
+//        for(int i = 0; i < lista.length; i++){
+//            for(int y = 1;  y < lista.length; y++){
+//                if(lista[i].equals("(") && lista[y].equals(")")){
+//                    count = true;
+//                    break;
+//
+//                }
+//            }
+//        }
+//        System.out.println(count);
+
+
 
 
     }
+
+
+
+
+
 
 }
