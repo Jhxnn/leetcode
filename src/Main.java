@@ -231,11 +231,34 @@ public class Main {
 //            System.out.println("nao é anagrama");
 //        }
 
+//         binary Search
+//        int target = 15;
+//
+//        int[] nums = {1,5,8,10,11,13,15,14,15,20,1,2,3,4,5,90,11,18,82,58};
+//        Arrays.sort(nums);
+//
+//        int inicio = 0;
+//        int fim = nums.length - 1;
+//        int i = 1;
+//        while (inicio <= fim) {
+//            int meio = (inicio + fim) / 2;
+//            System.out.println(i);
+//            if (nums[meio] == target) {
+//                System.out.println(meio);
+//                break;
+//            } else if (nums[meio] < target) {
+//                inicio = meio + 1;
+//            } else {
+//                fim = meio - 1;
+//            }
+//            i++;
+//        }
+
+        }
 
 
 
 
-    }
 
 
 
