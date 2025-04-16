@@ -166,7 +166,49 @@ public class Main {
 //        }
 //        System.out.println(count);
 
+        //
+        //merge two sorted list
 
+//        int[] lista1 = {1,3,5};
+//        int[] lista2 = {2,5,6};
+//        List<Integer> lista3 = new ArrayList<>();
+//
+//        for(int i = 0; i < lista1.length; i++){
+//            for(int y = 0; y < lista2.length; y++){
+//                if(lista1[i] > lista2[y]){
+//                    lista3.add(lista2[i]);
+//
+//                }
+//            }
+//        }
+//
+//        System.out.println(lista3);
+
+      //Best time do buy and sell stock
+//
+//        int[] prices = {7, 1, 5, 3, 6, 4};
+//        int best = 0;
+//        int bestDayToBuy = 0;
+//        int bestDayToSell = 0;
+//
+//        for(int i = 0; i < prices.length; i++){
+//            for(int y =1; y<prices.length; y++){
+//                if(prices[i] < prices[y]){
+//                    int price = prices[y] - prices[i];
+//                    if( price > best){
+//                        best = price;
+//                        bestDayToBuy = i + 1;
+//                        bestDayToSell = y + 1;
+//
+//                    }
+//                }
+//
+//            }
+//        }
+//        System.out.println("comprar: dia "  + bestDayToBuy);
+//        System.out.println("vender: dia " + bestDayToSell);
+//        System.out.println("lucro: " + best);
+//
 
 
     }
