@@ -209,6 +209,30 @@ public class Main {
 //        System.out.println("vender: dia " + bestDayToSell);
 //        System.out.println("lucro: " + best);
 //
+         //Valid anagram
+
+//        String s = "car";
+//
+//        String r = "arcc";
+//
+//        String[] listaS = s.split("");
+//        String[] listaR = r.split("");
+//
+//        if(listaR.length ==  listaS.length){
+//            Arrays.sort(listaS);
+//            Arrays.sort(listaR);
+//            if(Arrays.equals(listaR, listaS)){
+//                System.out.println("é anagrama");
+//            }
+//            else{
+//                System.out.println("nao é anagram");
+//            }
+//        }else {
+//            System.out.println("nao é anagrama");
+//        }
+
+
+
 
 
     }
