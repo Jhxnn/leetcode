@@ -254,6 +254,47 @@ public class Main {
 //            i++;
 //        }
 
+
+
+
+
+
+
+
+//        int[] lista = {1,24,5,6,100,15,22,38,90,81,6,10};
+//
+//        int inicio = 0;
+//
+//        int target = 38;
+//
+//        Arrays.sort(lista);
+////
+////        int ultimo = lista.length - 1;
+////        int z = 1;
+////
+////        while(inicio <= ultimo){
+////            int meio = (inicio + ultimo) / 2;
+////            System.out.println(z);
+////            if(lista[meio] == target){
+////                System.out.println("Tem aqui");
+////                break;
+////            }else if(target > meio){
+////                inicio = meio + 1;
+////            }
+////            else {
+////                ultimo = meio - 1;
+////            }
+////            z++;
+////
+////
+////        }
+
+
+
+
+
+
+
         }
 
 
