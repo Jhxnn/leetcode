@@ -1,8 +1,6 @@
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
 
@@ -289,23 +287,27 @@ public class Main {
 ////
 ////        }
 
+           int[] lista = {0,0,1,1,1,2,2,3,3,4};
+            int[] lista2 = new int[lista.length];
+            for(int i = 0; i < lista.length; i++){
+                for(int y = 1; y < lista.length; y++){
+                    if(lista[i] != lista[y]){
+                        lista2[i] = lista[y];
 
-
-
-
-
-
-
-
+                    }
+                }
+            }
+        for (int i : lista) {
+            System.out.println(i);
         }
 
 
 
 
+            
 
 
 
-
-
+        }
 
 }
