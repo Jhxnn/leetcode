@@ -286,25 +286,48 @@ public class Main {
 ////
 ////
 ////        }
-
-           int[] lista = {0,0,1,1,1,2,2,3,3,4};
-            int[] lista2 = new int[lista.length];
-            for(int i = 0; i < lista.length; i++){
-                for(int y = 1; y < lista.length; y++){
-                    if(lista[i] != lista[y]){
-                        lista2[i] = lista[y];
-
-                    }
-                }
-            }
-        for (int i : lista) {
-            System.out.println(i);
-        }
-
-
-
-
-            
+//
+//           int[] lista = {0,0,1,1,1,2,2,3,3,4};
+//            int[] lista2 = new int[lista.length];
+//            for(int i = 0; i < lista.length; i++){
+//                for(int y = 1; y < lista.length; y++){
+//                    if(lista[i] != lista[y]){
+//                        lista2[i] = lista[y];
+//
+//                    }
+//                }
+//            }
+//        for (int i : lista) {
+//            System.out.println(i);
+//        }
+//
+//
+//        String s = "LMC";
+//        Map<Character,Integer> romanos = new HashMap<>();
+//        romanos.put('I',1);
+//        romanos.put('V',5);
+//        romanos.put('X',10);
+//        romanos.put('L',50);
+//        romanos.put('C',100);
+//        romanos.put('D',500);
+//        romanos.put('M',1000);
+//
+//
+//        int anterior = 0;
+//        int resultado = 0;
+//
+//        for(int i = s.length() -1; i >=0 ; i--){
+//            int atual = romanos.get(s.charAt(i));
+//            if(atual < anterior){
+//                resultado -= atual;
+//            }
+//            else {
+//                resultado += atual;
+//            }
+//            anterior = atual;
+//        }
+//
+//        System.out.println(resultado);
 
 
 
